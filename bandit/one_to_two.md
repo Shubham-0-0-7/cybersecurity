@@ -1,0 +1,22 @@
+# Bandit Level 1 → 2
+
+## Login
+- **SSH:** `ssh bandit1@bandit.labs.overthewire.org -p 2220`
+- **Password:** `boJ9jbbUNNfktd78OOpsqOltutMc3MY1`
+
+## Task
+Find the password stored in a file called `-`.
+
+## Theory
+- `-` is a special character in Linux (used for options/flags).  
+- Directly running `cat -` won’t work.  
+- To reference such files, we use a relative path like `./-`.
+
+## Solution
+First, check files in the directory:
+```bash
+bandit1@bandit:~$ ls
+-
+bandit1@bandit:~$ cat ./-
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+```
