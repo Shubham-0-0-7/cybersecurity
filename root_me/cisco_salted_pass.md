@@ -9,9 +9,7 @@ Good luck!
 #### MD5
 MD5 (Message-Digest Algorithm 5) is a cryptographic hash function that takes any size input and produces a fixed-size 128-bit "fingerprint" called an MD5 hash. It was designed to verify data integrity and detect modifications by providing a unique digital fingerprint for data, but it is now considered insecure for cryptographic purposes due to known vulnerabilities. It is still used as a checksum for non-cryptographic functions, like confirming a file hasn't been altered  
 
-# Understanding Salt and md5crypt (Cisco Type-5)
-
----
+## Understanding Salt and md5crypt (Cisco Type-5)
 
 ## 1 What salt does
 
