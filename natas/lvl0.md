@@ -1,4 +1,4 @@
-# Natas 0 to 1
+# Natas 0
 
 login at :  
 http://natas0.natas.labs.overthewire.org
