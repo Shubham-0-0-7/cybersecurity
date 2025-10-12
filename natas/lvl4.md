@@ -7,8 +7,9 @@ The communication between the client (our machine) and the server (that hosts th
 1. open the burpsuite  
 2. turn the intercept on  
 3. then click on the "refresh page" button
-<img width="668" height="212" alt="image" src="https://github.com/user-attachments/assets/a74c8b62-4173-4711-baa7-c9e0554d7685" />  
-4. send the request to the repeater  
-5. open the repeater tab and edit the "Referer:http://natas4.natas.labs.overthewire.org/" to "Referer:http://natas5.natas.labs.overthewire.org/"  
-6. then send the request again ...  
-7. you will see that you have been authorised and you will get the password of natas 5    
+<img width="668" height="212" alt="image" src="https://github.com/user-attachments/assets/a74c8b62-4173-4711-baa7-c9e0554d7685" />     
+
+4. send the request to the repeater    
+5. open the repeater tab and edit the "Referer: http://natas4.natas.labs.overthewire.org/" to "Referer: http://natas5.natas.labs.overthewire.org/"  
+6. then send the request again ...   
+7. you will see that you have been authorised and you will get the password of natas 5      
