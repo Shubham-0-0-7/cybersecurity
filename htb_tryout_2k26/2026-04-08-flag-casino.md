@@ -89,3 +89,5 @@ End of assembler dump.
 corresponding C code:  
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/52fbdc27-9ab2-4945-a3d5-c59402c97667" />
+
+and yeah we got the flag!!  
